@@ -19,7 +19,7 @@
 	functions that our future programs would rely on.
 <br>
 
-## 🛠️ Usage
+## 🛠️ Usage (after downloading)
 
 <!-- ### Requirements
 
@@ -28,8 +28,8 @@
 <!-- ### Instructions -->
 
 ### **1. Compiling**
-
-To compile, run `make` at the root of the `libft` directory.
+To compile, run `make` at the root of the `libft` directory. <br>
+You must also run `make bonus` if you intend to use any of the bonus functions.
 
 
 ### **2. Using it**
@@ -37,5 +37,5 @@ To compile, run `make` at the root of the `libft` directory.
 To use any of my `libft` functions, simply include its header with the correct path in your code:
 
 ```C
-#include "PATH/libft.h"
+#include "PATH/src/libft.h"
 ```
