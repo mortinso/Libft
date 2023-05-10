@@ -18,14 +18,8 @@
 	This project is about coding a C library containing a lot of general purpose
 	functions that our future programs would rely on.
 <br>
-
+<!--
 ## 🛠️ Usage (after downloading)
-
-<!-- ### Requirements
-
-* -->
-
-<!-- ### Instructions -->
 
 ### **1. Compiling**
 To compile, run `make` at the root of the `libft` directory. <br>
@@ -39,3 +33,4 @@ To use any of my `libft` functions, simply include its header with the correct p
 ```C
 #include "PATH/src/libft.h"
 ```
+-->
