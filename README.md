@@ -18,7 +18,7 @@
 	This project is about coding a C library containing a lot of general purpose
 	functions that our future programs would rely on.
 
-My libft now also includes [my ft_printf](https://github.com/WudDoo/ft_printf) !
+My Libft now also includes [my ft_printf](https://github.com/WudDoo/ft_printf) !
 
 <br>
 
@@ -28,13 +28,13 @@ My libft now also includes [my ft_printf](https://github.com/WudDoo/ft_printf) !
 
 To clone, run:
 ```ZSH
-git clone https://github.com/WudDoo/libft.git
+git clone https://github.com/WudDoo/Libft.git
 ```
 
 
 ### **2. Compiling**
 
-To compile, run `make` at the root of the `libft` directory.
+To compile, run `make` at the root of the `Libft` directory.
 
 
 ### **3. Using it**
