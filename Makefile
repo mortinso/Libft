@@ -1,30 +1,24 @@
 # -*- MakeFile -*-
 
-SRCS = src/ft_atoi.c src/ft_bzero.c src/ft_calloc.c src/ft_isalnum.c src/ft_isalpha.c\
-	src/ft_isascii.c src/ft_isdigit.c src/ft_isprint.c src/ft_itoa.c src/ft_memchr.c\
-	src/ft_memcmp.c src/ft_memcpy.c src/ft_memmove.c src/ft_memset.c src/ft_putchar_fd.c\
-	src/ft_putendl_fd.c src/ft_putnbr_fd.c src/ft_putstr_fd.c src/ft_split.c\
-	src/ft_strchr.c src/ft_strdup.c src/ft_striteri.c src/ft_strjoin.c src/ft_strlcat.c\
-	src/ft_strlcpy.c src/ft_strlen.c src/ft_strmapi.c src/ft_strncmp.c src/ft_strnstr.c\
-	src/ft_strrchr.c src/ft_strtrim.c src/ft_substr.c src/ft_tolower.c src/ft_toupper.c
+NAME	= libft.a
 
-OBJS = $(patsubst src/%, obj/%, $(SRCS:%.c=%.o))
-
-SRCS_B = src/ft_lstnew_bonus.c src/ft_lstadd_front_bonus.c src/ft_lstsize_bonus.c\
-	src/ft_lstlast_bonus.c src/ft_lstadd_back_bonus.c src/ft_lstdelone_bonus.c \
-	src/ft_lstclear_bonus.c src/ft_lstiter_bonus.c src/ft_lstmap_bonus.c
-
-OBJS_B = $(patsubst src/%, obj_bonus/%, $(SRCS_B:%.c=%.o))
-
-CC = gcc
-
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
-
 RM = rm -rf
 
-NAME = libft.a
+C_FILES = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c\
+	ft_itoa.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putendl_fd.c\
+	ft_putnbr_fd.c ft_putstr_fd.c ft_split.c ft_strchr.c ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c\
+	ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_strtrim.c ft_substr.c\
+	ft_tolower.c ft_toupper.c ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c\
+	ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c ft_printf.c
 
-.PHONY: all bonus clean fclean re
+SRC_DIR	=	src
+
+SRCS	=	$(C_FILES:%.c=$(SRC_DIR)/%.c)
+OBJS	=	$(SRCS:$(SRC_DIR)/%.c=%.o)
+
+.PHONY: all clean fclean re
 
 all: $(NAME)
 
@@ -32,18 +26,10 @@ $(NAME): $(OBJS)
 	@ar -rcs $(NAME) $(OBJS)
 
 $(OBJS): $(SRCS)
-	@mkdir -p obj
-	@$(CC) $(CFLAGS) -o $@ -c $<
-
-$(OBJS_B): $(SRCS_B)
-	@mkdir -p obj_bonus
-	@$(CC) $(CFLAGS) -o $@ -c $<
-
-bonus: $(OBJS_B)
-	@ar -rcs $(NAME) $(OBJS_B)
+	@$(CC) $(CFLAGS) -c $(SRCS)
 
 clean:
-	@$(RM) obj obj_bonus
+	@$(RM) $(OBJS)
 
 fclean: clean
 	@$(RM) $(NAME)
