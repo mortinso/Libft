@@ -17,20 +17,36 @@
 
 	This project is about coding a C library containing a lot of general purpose
 	functions that our future programs would rely on.
+
+My libft now also includes [my ft_printf](https://github.com/WudDoo/ft_printf) !
+
 <br>
-<!--
-## 🛠️ Usage (after downloading)
 
-### **1. Compiling**
-To compile, run `make` at the root of the `libft` directory. <br>
-You must also run `make bonus` if you intend to use any of the bonus functions.
+## 🛠️ Usage
+
+### **1. Cloning**
+
+To clone, run:
+```ZSH
+git clone https://github.com/WudDoo/libft.git
+```
 
 
-### **2. Using it**
+### **2. Compiling**
 
-To use any of my `libft` functions, simply include its header with the correct path in your code:
+To compile, run `make` at the root of the `libft` directory.
+
+
+### **3. Using it**
+
+To use my ft_printf, simply include its header with the correct path in your code:
 
 ```C
-#include "PATH/src/libft.h"
+#include "<PATH>/libft.h"
 ```
--->
+
+And compile your code with my static library `libft.a`:
+
+```C
+$(CC) $(CFLAGS) $(YOUR_SRCS) $(<PATH>/libft.a)
+```
