@@ -1,27 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/14 15:48:57 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:42 by mortins-         ###   ########.fr       */
+/*   Created: 2022/11/18 17:01:33 by mortins-          #+#    #+#             */
+/*   Updated: 2023/05/19 16:29:14 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-//	Applies the function 'f' to each character of the string 's'
-
-void	ft_striteri(char *s, void (*f)(unsigned int, char*))
+//	Applies the function ’f’ on the content of each node
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
-	int	i;
-
-	i = 0;
-	while (s[i])
+	while (lst)
 	{
-		f(i, s + i);
-		i++;
+		f(lst -> content);
+		lst = lst -> next;
 	}
 }

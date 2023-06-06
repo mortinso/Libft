@@ -1,27 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/14 15:48:57 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:42 by mortins-         ###   ########.fr       */
+/*   Created: 2022/11/18 15:13:48 by mortins-          #+#    #+#             */
+/*   Updated: 2023/05/19 16:28:54 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
 
-//	Applies the function 'f' to each character of the string 's'
+//	Adds the node ’new’ at the end of the list 'lst'
 
-void	ft_striteri(char *s, void (*f)(unsigned int, char*))
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	int	i;
-
-	i = 0;
-	while (s[i])
-	{
-		f(i, s + i);
-		i++;
-	}
+	if (ft_lstlast(*lst))
+		ft_lstlast(*lst)-> next = new;
+	else
+		*lst = new;
 }
