@@ -27,7 +27,7 @@ My Libft now also includes [my ft_printf](https://github.com/WudDoo/ft_printf) !
 ### **1. Cloning**
 
 To clone, run:
-```ZSH
+```
 git clone https://github.com/WudDoo/Libft.git
 ```
 
@@ -39,7 +39,7 @@ To compile, run `make` at the root of the `Libft` directory.
 
 ### **3. Using it**
 
-To use my ft_printf, simply include its header with the correct path in your code:
+To use my libft, simply include its header with the correct path in your code:
 
 ```C
 #include "<PATH>/libft.h"
@@ -47,6 +47,6 @@ To use my ft_printf, simply include its header with the correct path in your cod
 
 And compile your code with my static library `libft.a`:
 
-```C
+```
 $(CC) $(CFLAGS) $(YOUR_SRCS) $(<PATH>/libft.a)
 ```
