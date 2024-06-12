@@ -6,7 +6,7 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 14:30:24 by mortins-          #+#    #+#             */
-/*   Updated: 2024/06/12 16:21:44 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 18:04:51 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,11 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdarg.h>
+
+// For get_next_line
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 10
+# endif
 
 int				ft_atoi(const char *s);
 void			ft_bzero(void *s, size_t n);
@@ -73,5 +78,9 @@ int				ft_lstsize(t_list *lst);
 // VV----------------- FT_PRINTF -----------------VV
 
 int				ft_printf(const char *s, ...);
+
+// VV-------------- GNL --------------VV
+
+char			*get_next_line(int fd);
 
 #endif	/* LIBFT_H */
