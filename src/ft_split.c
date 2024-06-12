@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 15:16:44 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:36 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:17:07 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Counts how many strings the array should contain
 

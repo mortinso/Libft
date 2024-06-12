@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 17:29:30 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:23 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:16:19 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Scans the initial 'n' bytes of the memory area pointed to by 's' for the
 //	first instance of 'c'

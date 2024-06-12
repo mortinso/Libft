@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 15:32:18 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:28 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:16:35 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Fills the first 'n' bytes of the memory area 's' with 'c'
 

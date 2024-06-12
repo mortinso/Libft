@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 17:57:16 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:27 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:16:31 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Copies 'n' bytes from memory area 'src' to memory area 'dest'
 //	The memory areas may overlap

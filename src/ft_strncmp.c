@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 12:39:41 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:51 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:19:12 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Compares only the first at most 'n' bytes of 's1' and 's2'
 

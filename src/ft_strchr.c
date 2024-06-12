@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 14:44:49 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:38 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:17:11 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Returns a pointer to the first occurrence of the character 'c'
 //	in the string 's'

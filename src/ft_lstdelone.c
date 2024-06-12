@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 16:09:40 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:12 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:15:59 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Deletes and frees the given node using the function ’del’ and free
 

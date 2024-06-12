@@ -50,3 +50,8 @@ And compile your code with my static library `libft.a`:
 ```
 $(CC) $(CFLAGS) $(YOUR_SRCS) $(<PATH>/libft.a)
 ```
+
+
+You could also install it to your machine by adding
+* libft.a to /usr/local/lib
+* libft.h to /usr/local/include

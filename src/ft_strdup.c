@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 12:40:31 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:40 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:17:14 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Returns a pointer to a new string duplicated from the string 's'
 

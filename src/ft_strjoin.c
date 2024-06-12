@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:34:27 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:44 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:17:24 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Returns a new string, resulting of the concatenation of 's1' and 's2'
 

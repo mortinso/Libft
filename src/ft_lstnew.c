@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 15:12:04 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:20 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:16:12 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Returns a new node with 'content' as its content
 

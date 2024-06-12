@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 12:23:00 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:53 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:19:15 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Locates the first occurrence of the string 'lil' in the string 'big'
 //	No more than 'n' characters are searched

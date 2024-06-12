@@ -6,11 +6,11 @@
 /*   By: mortins- <mortins-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 15:49:21 by mortins-          #+#    #+#             */
-/*   Updated: 2023/05/19 16:29:33 by mortins-         ###   ########.fr       */
+/*   Updated: 2024/06/12 16:16:58 by mortins-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "../inc/libft.h"
 
 //	Outputs the integer 'n' to the given file descriptor
 
