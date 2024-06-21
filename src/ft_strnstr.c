@@ -25,10 +25,10 @@ char	*ft_strnstr(const char *big, const char *lil, size_t n)
 		return ((char *)big);
 	if ((int)n < 0)
 		n = ft_strlen(big);
-	while (big[b] && b < n)
+	while (b < n && big[b])
 	{
 		l = 0;
-		while (big[b] != lil[l])
+		while (big[b] && big[b] != lil[l])
 			b++;
 		while (big[b + l] && big[b + l] == lil[l] && b + l < n)
 		{
