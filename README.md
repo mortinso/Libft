@@ -25,7 +25,7 @@
 
    2.2. [Build Instructions](https://github.com/mortinso/libft/#build-instructions)
 
-   2.3. [Adding it to your project](https://github.com/mortinso/libft/#adding-it-to-your-project)
+   2.3. [Adding it to your projects](https://github.com/mortinso/libft/#adding-it-to-your-projects)
 3. [Usage](https://github.com/mortinso/libft/#usage)
 
    3.1. [Makefile Commands](https://github.com/mortinso/libft/#makefile-commands)
