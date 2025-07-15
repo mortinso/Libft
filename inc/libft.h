@@ -61,8 +61,8 @@ int				ft_toupper(int c);
 
 typedef struct s_list
 {
-	void			*content;
-	struct s_list	*next;
+	void			*content; // Pointer to the nodes content
+	struct s_list	*next; // Pointer to the next node in the list
 }	t_list;
 
 void			ft_lstadd_back(t_list **lst, t_list *new);
