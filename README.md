@@ -85,7 +85,7 @@ This project entailed developing a C library comprising numerous general-purpose
 `re`     - Removes both the object and archive files, before re-compiling the project
 
 ### `t_list` Struct
-The `t_list` struct is essentially a linked list. It has its own [functions](https://mortinso/libft/#libft-functions).
+The `t_list` struct is essentially a linked list. It has its own [functions](https://github.com/mortinso/libft/#libft-functions).
 <img width="537" height="112" alt="Struct" src="https://github.com/user-attachments/assets/ebfbdd57-4126-4bcd-867e-ae946860101a" />
 
 
