@@ -136,77 +136,77 @@ The `t_list` struct is essentially a linked list. It has its own [functions](htt
 	<tr>
 		<td>ft_memchr</td>
 		<td><code>void *ft_memchr(const void *s, int c, size_t n)</code></td>
-		<td>Scans the initial <code>n<code> bytes of the memory area pointed to by <code>s<code> for the first instance of <code>c<code>. Returns 0 if <code>c<code> isn't found.</td>
+		<td>Scans the initial <code>n</code> bytes of the memory area pointed to by <code>s</code> for the first instance of <code>c</code>. Returns 0 if <code>c</code> isn't found.</td>
 	</tr>
 	<tr>
 		<td>ft_memcmp</td>
 		<td><code>int ft_memcmp(const void *s1, const void *s2, size_t n)</code></td>
-		<td>Compares the first <code>n<code> bytes of the memory areas <code>s1<code> and <code>s2<code>.</td>
+		<td>Compares the first <code>n</code> bytes of the memory areas <code>s1</code> and <code>s2</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_memcpy</td>
 		<td><code>void *ft_memcpy(void *dest, const void *src, size_t n)</code></td>
-		<td>Copies <code>n<code> bytes from memory area <code>src<code> to memory area <code>dest<code>. The memory areas must not overlap.</td>
+		<td>Copies <code>n</code> bytes from memory area <code>src</code> to memory area <code>dest</code>. The memory areas must not overlap.</td>
 	</tr>
 	<tr>
 		<td>ft_memmove</td>
 		<td><code>void *ft_memmove(void *dest, const void *src, size_t n)</code></td>
-		<td>Copies <code>n<code> bytes from memory area <code>src<code> to memory area <code>dest<code>.</td>
+		<td>Copies <code>n</code> bytes from memory area <code>src</code> to memory area <code>dest</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_memset</td>
 		<td><code>void *ft_memset(void *s, int c, size_t n)</code></td>
-		<td>Fills the first <code>n<code> bytes of the memory area <code>s<code> with <code>c<code>.</td>
+		<td>Fills the first <code>n</code> bytes of the memory area <code>s</code> with <code>c</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strchr</td>
 		<td><code>char *ft_strchr(const char *s, int c)</code></td>
-		<td>Returns a pointer to the first occurrence of the character <code>c<code> in the string <code>s<code>.</td>
+		<td>Returns a pointer to the first occurrence of the character <code>c</code> in the string <code>s</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strdup</td>
 		<td><code>char *ft_strdup(const char *s)</code></td>
-		<td>Returns a pointer to a new string duplicated from the string <code>s<code>.</td>
+		<td>Returns a pointer to a new string duplicated from the string <code>s</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strlcat</td>
 		<td><code>unsigned int ft_strlcat(char *dest, const char *src, size_t size)</code></td>
-		<td>Appends the string <code>src<code> to the end of <code>dest<code>. It will append at most <code>size - ft_strlen(dest) - 1 bytes<code>.</td>
+		<td>Appends the string <code>src</code> to the end of <code>dest</code>. It will append at most <code>size - ft_strlen(dest) - 1 bytes</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strlcpy</td>
 		<td><code>unsigned int ft_strlcpy(char *dest, const char *src, size_t size)</code></td>
-		<td>Copies up to <code>size - 1<code> characters from the string <code>src<code> to <code>dest<code>.</td>
+		<td>Copies up to <code>size - 1</code> characters from the string <code>src</code> to <code>dest</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strlen</td>
 		<td><code>size_t ft_strlen(const char *s)</code></td>
-		<td>Returns the number of characters in <code>s<code>.</td>
+		<td>Returns the number of characters in <code>s</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strncmp</td>
 		<td><code>int ft_strncmp(const char *s1, const char *s2, size_t n)</code></td>
-		<td>Compares at most the first <code>n<code> bytes of <code>s1<code> and <code>s2<code>.</td>
+		<td>Compares at most the first <code>n</code> bytes of <code>s1</code> and <code>s2</code>.</td>
 	</tr>
 	<tr>
 		<td>ft_strnstr</td>
 		<td><code>char *ft_strnstr(const char *big, const char *lil, size_t n)</code></td>
-		<td>Returns the first occurrence of the string <code>lil<code> in the string <code>big<code>. No more than <code>n<code> characters are searched. Returns <code>0<code> if <code>lil<code> isn't found.</td>
+		<td>Returns the first occurrence of the string <code>lil</code> in the string <code>big</code>. No more than <code>n</code> characters are searched. Returns <code>0</code> if <code>lil</code> isn't found.</td>
 	</tr>
 	<tr>
 		<td>ft_strrchr</td>
 		<td><code>char *ft_strrchr(const char *s, int c)</code></td>
-		<td>Returns a pointer to the last occurrence of the character <code>c<code> in the string <code>s<code>. Returns <code>NULL<code> if <code>c<code> is not found.</td>
+		<td>Returns a pointer to the last occurrence of the character <code>c</code> in the string <code>s</code>. Returns <code>NULL</code> if <code>c</code> is not found.</td>
 	</tr>
 	<tr>
 		<td>ft_tolower</td>
 		<td><code>int ft_tolower(int c)</code></td>
-		<td>Converts the letter <code>c<code> to lowercase, if possible.</td>
+		<td>Converts the letter <code>c</code> to lowercase, if possible.</td>
 	</tr>
 	<tr>
 		<td>ft_toupper</td>
 		<td><code>int ft_toupper(int c)</code></td>
-		<td>Converts the letter <code>c<code> to uppercase, if possible.</td>
+		<td>Converts the letter <code>c</code> to uppercase, if possible.</td>
 	</tr>
 </table>
 </details>
